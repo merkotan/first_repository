@@ -1,0 +1,144 @@
+div.li {
+	color: blue;
+}
+
+nav {
+	color: blue;
+}
+
+body {
+	background-image: url();
+}
+
+
+.amenu{	
+	text-decoration: none;
+	font-weight: bold;
+	background:;
+}
+
+nav {
+	font-size: 20px;
+	background:blue;
+}
+
+div .navbar {
+background: #F5F5DC;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+nav a{
+	display: inline-block;;
+	text-decoration: none;
+	color: #888d96;
+	padding: 10px 20px;
+	background: ;	
+}
+
+nav a:hover{
+	text-decoration: none;
+	background: #CCFFCC;
+	color: #191970;
+}
+
+.product_info{
+	width:400px;
+	height: 560px;
+	background-color: #F5F5DC;
+	
+	float: left;
+	border-radius: 8px;
+	margin: 5px 5px 5px 5px;
+	 
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.product{
+	width:200px;
+	height: 420px;
+	background-color: #F5F5DC;
+	
+	float: left;
+	border-radius: 8px;
+	margin: 5px 5px 5px 5px;
+	 
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.ptitle{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.pphoto{
+	height: 200px;
+}
+
+.pinfo{
+	height: 60px;
+}
+
+#into{
+	float: right; 
+}
+
+p{
+	color: #191970;
+
+}
+
+
+
+body .slider {
+		overflow:hidden; /* Скрываем всё что за блоком слайдера */
+		position:relative;
+		width:800px;
+		height:500px;
+		margin:0 auto;
+	}
+	
+		body .slider .slides {
+			position:relative;
+			transition:1s; /* Задаем время изменения блока, отвечает за плавную прокрутку */
+		}
+		
+			body .slider .slides .slide {
+				float:left;
+				display:block;
+			}
+			
+			body .slider .slides .slide img{
+				width:800px;
+				height:500px;
+			}
+			
+		body .slider .next {
+			position:absolute;
+			height:50px;
+			width:50px;
+			background:#009900;
+			right:0;
+			top:225px;
+			z-index:1;
+			cursor:pointer;
+		}
+		
+		body .slider .prev {
+			position:absolute;
+			height:50px;
+			width:50px;
+			background:#009900;
+			left:0;
+			top:225px;
+			z-index:1;
+			cursor:pointer;
+		}
